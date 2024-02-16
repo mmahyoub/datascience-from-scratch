@@ -24,6 +24,8 @@ class GaussianNB:
         self.variance = None
 
     def fit(self, X, y):
+        assert isinstance(X, np.ndarray), "X must be a numpy array."
+        assert isinstance(y, np.ndarray), "y must be a numpy arry"
         self.classes = np.unique(y)
         self.class_probabilities = np.zeros(len(self.classes))
         self.mean = np.zeros((len(self.classes), X.shape[1]))
@@ -44,6 +46,7 @@ class GaussianNB:
         return (1 / np.sqrt(2 * np.pi * variance)) * np.exp(-(x - mean) ** 2 / (2 * variance))
 
     def predict(self, X):
+        assert isinstance(X, np.ndarray), "X must be a numpy array."
         predictions = []
 
         for x in X:
@@ -77,6 +80,8 @@ class CategoricalNB:
         self.feature_probabilities = None
         
     def fit(self, X, y):
+        assert isinstance(X, np.ndarray), "X must be a numpy array."
+        assert isinstance(y, np.ndarray), "y must be a numpy arry"
         self.classes = np.unique(y)
         self.class_probabilities = np.zeros(len(self.classes))
         self.feature_probabilities = {}
@@ -98,6 +103,7 @@ class CategoricalNB:
                 self.feature_probabilities[c].append(probabilities)
             
     def predict(self, X):
+        assert isinstance(X, np.ndarray), "X must be a numpy array."
         predictions = []
         for x in X:
             # loop one row at a time

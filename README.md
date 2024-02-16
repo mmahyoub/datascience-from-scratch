@@ -1,0 +1,1 @@
+A repository for machine learning (ML) algorithms created from scratch using native python and fundamental packages such as numpy. This repository is my personal workspace for deepening the understanding of the inner workings of ML algorithms.

@@ -1,0 +1,11 @@
+2024-02-16 22:36:50,884 - INFO - Testing Gaussian Naive Bayes Classifier...
+2024-02-16 22:36:50,885 - INFO - GNB is working and the generated predictions for
+[[0.5 1.5]
+ [8.  9. ]] are:
+[0, 1]
+2024-02-16 22:36:50,885 - INFO - Testing Categorical Naive Bayes Classifier...
+2024-02-16 22:36:50,886 - INFO - CNB is working and the generated predictions for 
+[[1 1]
+ [3 3]
+ [0 3]] are:
+ [0, 1, 0]

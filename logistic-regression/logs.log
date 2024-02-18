@@ -1,0 +1,6 @@
+2024-02-17 23:52:19,569 - INFO - Testing LogisticRegression algorithm...
+2024-02-17 23:52:19,583 - INFO - Fitting completed. Learned parameters are: [-1.0526084489376566, 0.9866585293210485, -0.32965821897677683]
+2024-02-17 23:52:19,583 - INFO - Generating predictions...
+2024-02-17 23:52:19,584 - INFO - Logistic Regression is working and the generated predictions for [[0.5 1. ]
+ [5.  2. ]] with actual labels = [0, 1] are: [0, 1] || probabilities = [[0.71 0.29]
+ [0.04 0.96]]

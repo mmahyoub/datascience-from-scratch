@@ -1,0 +1,2 @@
+2024-02-24 15:35:09,727 - INFO - Testing the DecisionTreeClassifier algorithm..
+2024-02-24 15:35:09,735 - INFO - Testing succeeded! Accuracy on the iris test samples is 100.0%
